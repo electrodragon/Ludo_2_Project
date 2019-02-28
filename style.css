@@ -1,0 +1,267 @@
+body{
+  background:black;
+}
+.container{
+  border:5px solid red;
+  border-radius:5px;
+  width:600px;
+  height:600px;
+  margin:auto;
+  position: relative;
+  background:khaki;
+}
+.container > .red,.green,.yellow,.blue{
+  width:200px;
+  height:200px;
+  background:#666666;
+}
+.red{
+  border:1px solid red;
+  position: absolute;
+  left:10px;
+  top:10px;
+}
+.green{
+  border:1px solid green;
+  position: absolute;
+  right:10px;
+  top:10px;
+}
+.blue{
+  border:1px solid blue;
+  position: absolute;
+  right:10px;
+  bottom:10px;
+}
+.yellow{
+  border:1px solid yellow;
+  position: absolute;
+  left:10px;
+  bottom:10px;
+}
+.red1,.red2,.red3,.red4,.green1,.green2,.green3,.green4,.blue1,.blue2,.blue3,.blue4,.yellow1,.yellow2,.yellow3,.yellow4{
+  width:50px;
+  height:50px;
+}
+.red1,.red2,.red3,.red4{ border: 1px solid red; background: red;}
+.green1,.green2,.green3,.green4{ border: 1px solid green; background: green;}
+.blue1,.blue2,.blue3,.blue4{ border: 1px solid blue; background: blue;}
+.yellow1,.yellow2,.yellow3,.yellow4{ border: 1px solid yellow; background: yellow;}
+.red1,.green1,.blue1,.yellow1{
+  position:absolute;
+  top:20px;
+  left:20px;
+}
+.red2,.green2,.blue2,.yellow2{
+  position:absolute;
+  top:20px;
+  right:20px;
+}
+.red3,.green3,.blue3,.yellow3{
+  position: absolute;
+  bottom:20px;
+  right:20px;
+}
+.red4,.green4,.blue4,.yellow4{
+  position: absolute;
+  bottom:20px;
+  left:20px;
+}
+.gotorg,.gotoby{
+  border:1px solid black;
+  width:172px;
+  height:200px;
+}
+.gotorg{
+  position:absolute;
+  top:10px;
+  left:213px;
+}
+.gotoby{
+  position:absolute;
+  left:213px;
+  bottom:10px;
+}
+.gotogb,.gotoyr{
+  border:1px solid black;
+  width:200px;
+  height:172px;
+}
+.gotogb{
+  position:absolute;
+  top:213px;
+  right:10px;
+}
+.gotoyr{
+  position:absolute;
+  left:10px;
+  bottom:213px;
+}
+.rga,.rgb,.rgc{
+  position:absolute;
+  top:3px;
+}
+.rga{
+  left:10px;
+}
+.rgat3{
+  background-color: red;
+}
+.rgb{
+  left:70px;
+  right:70px;
+}
+.rgbt2,.rgbt3,.rgbt4,.rgbt5,.rgbt6{
+  background:green;
+}
+.rgc{
+  right:10px;
+}
+.rgct2{
+  background:green;
+}
+/* */
+.gba,.gbb,.gbc{
+  position:absolute;
+  left:10px;
+}
+.gba{
+  top:10px;
+}
+.gbb{
+  top:70px;
+}
+.gbc{
+  top:130px;
+}
+.gbat4{
+background-color:green;
+}
+.gbbt1,.gbbt2,.gbbt3,.gbbt4,.gbbt5{
+  background:blue;
+}
+.gbct5{
+  background-color:blue;
+}
+/* */
+.bya,.byb,.byc{
+  position:absolute;
+  top:3px;
+}
+.bya{
+  left:10px;
+}
+.byat5{
+  background-color: yellow;
+}
+.byb{
+  left:70px;
+  right:70px;
+}
+.bybt1,.bybt2,.bybt3,.bybt4,.bybt5{
+  background:yellow;
+}
+.byc{
+  right:10px;
+}
+.byct4{
+  background:blue;
+}
+/* */
+.gba,.gbb,.gbc{
+  position:absolute;
+  left:10px;
+}
+.gba{
+  top:10px;
+}
+.gbb{
+  top:70px;
+}
+.gbc{
+  top:130px;
+}
+.gotoyr > .gba > .gbat2{
+  background-color:red;
+}
+.gotoyr > .gba > .gbat4{
+  background-color:khaki;
+}
+.gotoyr > .gbb > .gbbt1{
+  background-color:khaki;
+}
+.gotoyr > .gbb > .gbbt2{
+  background-color:red;
+}
+.gotoyr > .gbb > .gbbt3{
+  background-color:red;
+}
+.gotoyr > .gbb > .gbbt4{
+  background-color:red;
+}
+.gotoyr > .gbb > .gbbt5{
+  background-color:red;
+}
+.gotoyr > .gbb > .gbbt6{
+  background-color:red;
+}
+.gotoyr > .gbc > .gbct5{
+  background-color:khaki;
+}
+.gotoyr > .gbc > .gbct3{
+  background-color:yellow;
+}
+.centerarea{
+  background-color:indigo;
+  width:170px;
+  height:170px;
+  position:absolute;
+  top:215px;
+  left:215px;
+}
+.carea1,.carea2,.carea3,.carea4,.carea5,.carea6,.carea7,.carea8{
+  position:absolute;
+  width:20px;
+  height:40px;
+  border-radius:5px;
+}
+.carea1{
+  border-top:3px solid red;
+  top:40px;
+  left:50px;
+}
+.carea2{
+  border-left:3px solid red;
+  left:40px;
+  top:50px;
+}
+.carea3{
+  border-right:3px solid red;
+  left:40px;
+  top:30px;
+}
+.carea4{
+  border-bottom:3px solid red;
+  left:40px;
+  top:50px;
+}
+.carea5{
+  border-top:3px solid red;
+  left:50px;
+  bottom:70px;
+}
+.carea6{
+  border-left:3px solid red;
+  left:90px;
+  top:80px;
+}
+.carea7{
+  border-right:3px solid red;
+  left:110px;
+  top:90px;
+}
+.carea8{
+  border-top:3px solid red;
+  left:70px;
+  top:30px;
+}
